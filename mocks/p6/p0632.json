@@ -1,0 +1,19 @@
+{
+  "code": "P0632",
+  "description": "Odometer Not Programmed – ECM/PCM",
+  "info": [
+    "This is a generic diagnostic trouble code (DTC) and applies to many OBD-II vehicles (1996-newer). That may include but is not limited to vehicles from Mercedes Benz, Ford, Dodge, Ram, Jeep, Hyundai, etc. Although generic, the exact repair steps may vary depending on year, make, model and powertrain configuration.",
+    "\n ",
+    "When a code P0632 is stored, it means that the engine control module (ECM) or powertrain control module (PCM) has detected an incorrect or non-existent odometer (mileage) reading.",
+    "Since the inception of OBD-II diagnostic systems, a method of recording vehicle mileage has been programmed into each ECM/PCM. Other controllers (including the instrument panel control - IPC - module) may also be programmed to record mileage but a federal mandate demands that the ECM/PCM is programmed as such.",
+    "The primary reason for government and auto industry insistence that the ECM/PCM be programmed to record mileage is to prevent odometer tampering. System controllers cannot be swapped between vehicles without being programmed with the correct vehicle mileage. If controllers could be randomly swapped between vehicles, odometer readings would be far less accurate if not totally unreliable. When an ECM/PCM is replaced, it must be programmed with the vehicle’s odometer reading and VIN (among other things).",
+    "If the ECM/PCM fails to find or recognize an acceptable odometer reading, a code P0632 will be stored and a malfunction indicator lamp (MIL) may be illuminated. The ECM/PCM searches for the odometer reading and compares it with the IPC odometer figure each time the key is turned on and the self-test function is energized."
+  ],
+  "symptoms": [
+    "No (or intermittent) odometer display\nIncorrect odometer display\nErratic speedometer operation\nVehicle security system may be activated\nOther diagnostic codes will likely be stored"
+  ],
+  "causes": [
+    "ECM/PCM programming error\nECM/PCM swapped between vehicles and/or replaced without being properly programmed\nECM/PCM failure\nIPC programming error\nInstrument panel cluster replacement without proper reprogramming"
+  ],
+  "type": "INFO"
+}
